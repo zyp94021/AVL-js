@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AVL-js</title>
+</head>
+<style>
+    pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+    .string { color: green; }
+    .number { color: darkorange; }
+    .boolean { color: blue; }
+    .null { color: magenta; }
+    .key { color: red; }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #content{
+        width: 100%;
+        padding: 20px;
+    }
+    #arr{
+        word-wrap: break-word;
+        word-break:normal;
+        width: 100%;
+    }
+</style>
+
+<body>
+<div id="content">
+    <div>
+        <label>数组元素个数</label>
+        <input type="number" id="number"/>
+        <button id="createArr">随机生成数组</button>
+    </div>
+    <br/>
+    <div>
+        <span>数组</span>
+        <p id="arr"></p>
+    </div>
+    <div>
+        <button id="createAVL">创建树</button>
+    </div>
+</div>
+<pre id="result">
+
+</pre>
+</body>
+<script src="app.js"></script>
+</html>
